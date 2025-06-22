@@ -7,7 +7,7 @@ import { generateStockReport } from '../services/openaiService.js'
 
 const router = express.Router()
 
-router.post('/generate-report', async (req, res) => {
+router.post('/api/generate-report', async (req, res) => {
   try {
     const { stockData } = req.body
     const report = await generateStockReport(stockData)

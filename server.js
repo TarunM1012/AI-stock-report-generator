@@ -16,5 +16,5 @@ app.use(express.static('public'))
 app.use('/', aiRoutes)  // Mount your AI routes
 
 app.listen(3000, () => {
-  console.log('Server running on http://localhost:3000')
+  console.log('Server running on http://host:3000')
 })

@@ -81,7 +81,7 @@ async function fetchStockData() {
 
 async function fetchReport(data) {
     try {
-        const response = await fetch('/generate-report', {
+        const response = await fetch('/api/generate-report', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
