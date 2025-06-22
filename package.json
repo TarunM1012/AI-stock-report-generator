@@ -7,9 +7,11 @@
   },
   "name": "stockpredictor",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/generate-report.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'No build step required'",
+    "dev": "echo 'Use Vercel CLI for local development'"
   },
   "keywords": [],
   "author": "",

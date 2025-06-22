@@ -1,0 +1,33 @@
+# Development files
+server.js
+routes/
+learning files/
+
+# Environment files
+.env*
+!.env.example
+
+# Node modules (will be installed by Vercel)
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js 
